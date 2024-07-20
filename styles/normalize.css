@@ -5,7 +5,7 @@
 }
 
 html, body {
-    font-family: 'GTEestiPro';
+    font-family: 'GTEestiPro', arial, sans-serif;
 
     background: white;
     display: flex;

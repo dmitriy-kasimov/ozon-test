@@ -2,7 +2,7 @@ input[type="number"]{
     outline: none;
 }
 
-.text-field__input {
+.progress-controls__value {
     padding: 8px 10px;
     height: 28px;
     width: 44px;
