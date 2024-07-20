@@ -1,9 +1,5 @@
 .switcher {
     cursor: pointer;
-
-    display: flex;
-    align-items: center;
-    gap: 16px;
 }
 .switcher-checkbox {
     clip: rect(0 0 0 0);

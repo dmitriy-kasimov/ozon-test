@@ -3,6 +3,7 @@
 @import './components/switcer.css';
 @import 'animate.css';
 @import 'hide.css';
+@import './helpers.css';
 
 .progress {
     display: flex;
@@ -14,11 +15,4 @@
     .progress {
         flex-direction: row;
     }
-}
-
-
-.progress-controls{
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
 }
