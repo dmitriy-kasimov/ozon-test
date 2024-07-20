@@ -1,0 +1,24 @@
+@import './palette.css';
+@import './components/textfield.css';
+@import './components/switcer.css';
+@import 'animate.css';
+@import 'hide.css';
+
+.progress {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    align-items: center;
+}
+@media screen and (orientation: landscape){
+    .progress {
+        flex-direction: row;
+    }
+}
+
+
+.progress-controls{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}

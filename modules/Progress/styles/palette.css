@@ -1,0 +1,6 @@
+.progress{
+    --accent-color: #005bff;
+    --secondary-color: rgba(204, 214, 228, .6);
+
+    --text-color: #000;
+}

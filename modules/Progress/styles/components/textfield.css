@@ -1,0 +1,17 @@
+input[type="number"]{
+    outline: none;
+}
+
+.text-field__input {
+    padding: 8px 10px;
+    height: 28px;
+    width: 44px;
+
+    font-family: 'GTEestiPro';
+    font-size: 16px;
+    font-weight: 500;
+    color: var(--text-color);
+
+    border: 1px solid var(--text-color);
+    border-radius: 30px;
+}
