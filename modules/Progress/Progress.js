@@ -28,8 +28,20 @@ class Progress{
 
         this.$value = document.querySelector(selectorValue);
         this.$value.addEventListener('change', (e) => {
+
+            const min = +this.$value.min;
+            const max = +this.$value.max;
             const value = e.target.value;
-            const offset = Progress.getOffset(circumference, value);
+
+            if(value < min){
+                this.$value.value = min;
+            } else if (value > max){
+                this.$value.value = max;
+            } else {
+                this.$value.value = value;
+            }
+
+            const offset = Progress.getOffset(circumference, this.$value.value);
             this.$circle.style.strokeDashoffset = `${offset}`;
         })
 
