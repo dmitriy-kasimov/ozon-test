@@ -3,7 +3,11 @@ input[type="number"]{
 }
 
 .progress-controls__value {
-    padding: 8px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 9px 2px 9px;
+
     height: 28px;
     width: 44px;
 
